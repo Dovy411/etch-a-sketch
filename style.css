@@ -7,9 +7,9 @@
 
 .box {
     background-color: darkgrey;
-    border: 2px black solid;
+    border: 1px black solid;
     
-    flex: 1 1 calc(100%/16);
+    /*flex: 0 0 calc(100%/16);*/
 
 }
 
