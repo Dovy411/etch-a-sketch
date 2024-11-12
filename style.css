@@ -8,8 +8,10 @@
 .box {
     background-color: darkgrey;
     border: 1px black solid;
+    /*opacity: 0.2;*/
     
     /*flex: 0 0 calc(100%/16);*/
+    
 
 }
 
