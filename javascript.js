@@ -5,9 +5,9 @@ const container = document.querySelector("#container");
 
 function changeBoxNumber() {
     let gridItems = prompt("Enter a number: ");
-    
+    //let gridItems = 13;
     while (gridItems > 20) {
-        let gridItems = prompt("No more than 20: ");
+        gridItems = prompt("No more than 20: ");
         if (gridItems < 20) {
             break;
         }
@@ -55,6 +55,8 @@ const button = document.querySelector("#button");
 button.addEventListener ("click", () => {
     changeBoxNumber();
 })
+
+//changeBoxNumber();
 
 
 
